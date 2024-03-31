@@ -54,3 +54,9 @@
       rgb(var(--custom-red)));
   animation: spin 1.5s linear infinite;
 }
+
+@keyframes spin {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
