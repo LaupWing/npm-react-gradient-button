@@ -23,22 +23,6 @@
   --nav-height: 4.5rem;
 }
 
-.gradient-animation {
-  background: linear-gradient(-45deg,
-      rgb(var(--custom-red)),
-      rgb(var(--custom-orange)),
-      rgb(var(--custom-green)),
-      rgb(var(--custom-blue)),
-      rgb(var(--custom-purple)),
-      rgb(var(--custom-red)));
-  background-size: 400% 400%;
-  animation: straight 15s linear infinite;
-}
-
-.gradient-animation-border {
-  @apply relative p-1 rounded-md overflow-hidden;
-}
-
 .gradient-animation-border::before {
   content: "";
   height: 440%;
