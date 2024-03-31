@@ -1,6 +1,7 @@
 const GradientButton = () => {
     return (
-        <div className="relative group">
+        <div className="relative group flex">
+            <div className="absolute -inset-0.5 animate-pulse rounded blur from-custom-green bg-gradient-to-r to-custom-purple opacity-75 transition duration-1000 group-hover:opacity-100 group-hover:duration-200" />
             <button
                 className={
                     "gradient-animation-border relative p-1 rounded-md overflow-hidden shadow hover:scale-[1.03] active:scale-[0.97] motion-safe:transform-gpu motion-reduce:hover:scale-100 transition duration-100 scale-100 "
